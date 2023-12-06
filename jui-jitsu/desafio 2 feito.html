@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário intermediario</title>
+    <link rel="stylesheet" href="seuestilojcss.css">
+    <style>
+        label {
+            display: block;
+            margin-bottom: 8px;
+        }
+    </style>
+</head>
+<body>
+        <nav>
+          <ul>
+          
+            <li><a href="index (6).html">Home</a></li>
+            <li><a href="jiu-jitsu.html">Sobre</a></li>
+            <li><a href="desafio 2 feito.html">Serviços</a></li>
+          </ul>
+        </nav>
+        
+          <header>
+            <h1>Artes Marciais</h1>
+          </header>
+<h1>INSCRIÇÃO</h1>
+<section>
+<form action="/processar-formulario" method="post">
+    <label for="nome">Nome:</label>
+    <input type="text" id="nome" name="nome" required>
+
+    <br>
+
+    <label for="email">Telefone:</label>
+    <input type="Telefone" id="Telefone" name="Telefone" required>
+
+    <br>
+
+    <label for="genero">Gênero:</label>
+    <select id="genero" name="genero">
+        <option value="masculino">Masculino</option>
+        <option value="feminino">Feminino</option>
+        <option value="outro">Outro</option>
+    </select>
+
+    <br>
+
+    <label>Interesses:</label>
+    <input type="checkbox" id="interesse1" name="interesses[]" value="jiu-jitsu">
+    <label for="interesse1">jiu-jitsu</label>
+    <input type="checkbox" id="interesse2" name="interesses[]" value="muay thai">
+    <label for="interesse2">muay thai</label>
+    <input type="checkbox" id="interesse3" name="interesses[]" value="boxe">
+    <label for="interesse3">boxe</label>
+    <input type="checkbox" id="interesse3" name="interesses[]" value="Karatê">
+    <label for="interesse3">Karatê</label>
+
+    <br>
+
+
+    <input type="submit" value="Enviar">
+</form>
+</section>
+    <footer>
+        <p>Curso focado No Seu desenvolvimento - © 2023 Artes Maciais</p>
+    </footer>
+
+</body>
+</html>
